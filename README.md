@@ -58,7 +58,9 @@ X19 = amount paid in August, 2005,
 
 X23 = amount paid in April, 2005. 
 
+##### Reference
 
+"Many statistical methods, including discriminant analysis, logistic regression, Bayes classifier, and nearest neigh bor, have been used to develop models of risk prediction (Hand & Henley, 1997). With the evolution of artificial intelligence and machine learning, artificial neural net- works and classification trees were also employed to fore- cast credit risk (Koh & Chan, 2002; Thomas, 2000). Credit risk here means the probability of a delay in the repayment of the credit granted (Paolo, 2001)." (Yeh and Lien, 2009, p2473)
 
  
 
