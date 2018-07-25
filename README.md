@@ -6,9 +6,7 @@ The data set is from the https://archive.ics.uci.edu/ml/datasets/default+of+cred
 
 ##### Object 
 
-This project uses Machine Learning algorithm such as logistic regression, artificial neural network, KNN, and SVM to compares the predictive accuracy of default rate.
-
-The application of machine learning on results could be used to predict if the customer is credible or not credible clients for credit card application.
+This project uses Machine Learning algorithm such as logistic regression for the predictive accuracy of default rate.  nThe application of machine learning on results could be used to predict if the customer is credible or not credible clients for credit card application.
 
 ##### Variables
 
@@ -16,7 +14,7 @@ The dataset tracked the payment amount and status on credit car bills on each cl
 
 The the response variable (Y) is  a binary variable, default payment (Yes = 1, No = 0).  The explanatory variables are :
 
-X1:LIMIT BAL amount of the given credit (NT dollar): it includes both the individual consumer credit and his/her family (supplementary) credit.
+X1:LIMIT BAL Amount of the given credit (NT dollar): it includes both the individual consumer credit and his/her family (supplementary) credit.
 
 X2:SEX  gender (1 = male; 2 = female). 
 
@@ -58,7 +56,7 @@ X23:PAY_AMT6  = amount paid in April, 2005.
 
 #####  Prepare The Dataset
 
-We should split the dataset to three parts:
+We should split the dataset to two parts:
 
 - training set 80%
 - test set 20%
