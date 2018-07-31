@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<title>Default Prediction App</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="static/w3.css">
+<link rel="stylesheet" href="static/css.css">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url('static/ccc.jpg');
+    min-height: 99%;
+    background-position: center;
+    background-size: cover;
+}
+</style>
+<body>
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    Default Predictor App
+  </div>
+  <div class="w3-display-middle">
+   
+   
+    <form action = "/getdefault" method="POST">
+<table>
+<tr>
+<td align='right'>
+
+
+<p> Select Limit Amount:<input name="origin" type ="text" value="1000" /> </p>
+
+<p> Select Gender : 
+  <select name="SEX">
+  <option value="1">Male </option>
+  <option value="2">Female </option>
+  </select>
+      
+  <p> Select  Education :   
+  <select name="EDUCATION">
+  <option value="1">Graduate School </option>
+  <option value="2">University </option>
+  <option value="3">High School</option>
+  <option value="4">Other </option>
+  </select>
+  
+  <p> Select Marriage:
+  <select name="MARRIAGE">
+  <option value="1">Married </option>
+  <option value="2">Single </option>
+  <option value="3">Other</option>
+  </select>
+  <p> Select Age: <input name="age" type ="text" value="45" /> </p>
+
+
+<p> History of past payments status (Month 1):
+<select name="pay_0">
+    <option value=-1 selected>Paid</option>
+    <option value=1>Payment delay</option>
+    <option value=2>Payment delay for 2 months</option>
+    <option value=3>Payment delay for 3 months</option>
+    <option value=4>Payment delay for 4 months</option>
+    <option value=5>Payment delay for 5 months</option>
+    <option value=6>Payment delay for 6 months</option>
+    <option value=7>Payment delay for 7 months</option>
+    <option value=8>Payment delay for 8 months</option>
+    <option value=9>Payment delay for 9 or more months</option>
+</select>
+</p>
+History of past payments status (Month 2):
+<select name="pay_0">
+    <option value=-1 selected>Paid</option>
+    <option value=1>Payment delay</option>
+    <option value=2>Payment delay for 2 months</option>
+    <option value=3>Payment delay for 3 months</option>
+    <option value=4>Payment delay for 4 months</option>
+    <option value=5>Payment delay for 5 months</option>
+    <option value=6>Payment delay for 6 months</option>
+    <option value=7>Payment delay for 7 months</option>
+    <option value=8>Payment delay for 8 months</option>
+    <option value=9>Payment delay for 9 or more months</option>
+</select>
+</p>
+
+History of past payments status (Month 3):
+<select name="pay_0">
+    <option value=-1 selected>Paid</option>
+    <option value=1>Payment delay</option>
+    <option value=2>Payment delay for 2 months</option>
+    <option value=3>Payment delay for 3 months</option>
+    <option value=4>Payment delay for 4 months</option>
+    <option value=5>Payment delay for 5 months</option>
+    <option value=6>Payment delay for 6 months</option>
+    <option value=7>Payment delay for 7 months</option>
+    <option value=8>Payment delay for 8 months</option>
+    <option value=9>Payment delay for 9 or more months</option>
+</select>
+</p>
+
+History of past payments status(Month 4):
+<select name="pay_0">
+    <option value=-1 selected>Paid</option>
+    <option value=1>Payment delay</option>
+    <option value=2>Payment delay for 2 months</option>
+    <option value=3>Payment delay for 3 months</option>
+    <option value=4>Payment delay for 4 months</option>
+    <option value=5>Payment delay for 5 months</option>
+    <option value=6>Payment delay for 6 months</option>
+    <option value=7>Payment delay for 7 months</option>
+    <option value=8>Payment delay for 8 months</option>
+    <option value=9>Payment delay for 9 or more months</option>
+</select>
+</p>
+
+History of past payments status(Month 5):
+<select name="pay_0">
+    <option value=-1 selected>Paid</option>
+    <option value=1>Payment delay</option>
+    <option value=2>Payment delay for 2 months</option>
+    <option value=3>Payment delay for 3 months</option>
+    <option value=4>Payment delay for 4 months</option>
+    <option value=5>Payment delay for 5 months</option>
+    <option value=6>Payment delay for 6 months</option>
+    <option value=7>Payment delay for 7 months</option>
+    <option value=8>Payment delay for 8 months</option>
+    <option value=9>Payment delay for 9 or more months</option>
+</select>
+</p>
+
+History of past payments status(Month 6):
+<select name="pay_0">
+    <option value=-1 selected>Paid</option>
+    <option value=1>Payment delay</option>
+    <option value=2>Payment delay for 2 months</option>
+    <option value=3>Payment delay for 3 months</option>
+    <option value=4>Payment delay for 4 months</option>
+    <option value=5>Payment delay for 5 months</option>
+    <option value=6>Payment delay for 6 months</option>
+    <option value=7>Payment delay for 7 months</option>
+    <option value=8>Payment delay for 8 months</option>
+    <option value=9>Payment delay for 9 or more months</option>
+</select>
+</p>
+
+<p> Amount of First Bill: <input name="BILL_AMT1" type ="text" value="0" /> </p>
+<p> Amount of First Payment: <input name="PAY_AMT1" type ="text" value="0" /> </p>
+
+<p> <input type ="submit" value="submit" /> </p>
+</form>
+  </div>
+  <div class="w3-display-bottomleft w3-padding-large">
+    
+  </div>
+    <div class="w3-display-bottomright w3-padding-large">
+   
+  </div>
+</div>
+
+</body>
+</html>
