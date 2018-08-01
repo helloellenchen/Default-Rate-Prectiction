@@ -48,10 +48,9 @@ def get_default():
         except:
             pass
         
-      
         pkl_file = open('tasemodel.pkl', 'rb')
         logmodel = pickle.load(pkl_file)
-        prediction = logmodel.predict([new_vector])
+        prediction = logmodel.predict([new_vector[1:]])
         
         return render_template('result.html',prediction=prediction)
 
